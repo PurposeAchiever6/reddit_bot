@@ -1,0 +1,32 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Reddit Bot </h1>
+        <form id="monitorForm">
+            <label for="subredditName">Subreddit Name:</label>
+            <input type="text" id="subredditName" name="subredditName" required>
+            <label for="keywords">Keywords (comma-separated):</label>
+            <input type="text" id="keywords" name="keywords" required>
+            <button type="submit">Start Monitoring</button>
+        </form>
+        <div id="interactions">
+        </div>
+        <button id="stopButton">Stop Monitoring</button>
+        <p id="statusMessage"></p>
+        <button onclick="window.location.href='/interactions'">View All Interactions</button>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,344 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#interactions {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.interaction {
+    margin-bottom: 20px;
+}
+
+.interaction p {
+    margin-bottom: 5px;
+}
+
+.interaction .post-id {
+    font-weight: bold;
+}
+
+.interaction .title {
+    font-size: 1.2em;
+}
+
+.interaction .content {
+    color: #666;
+}
+
+.interaction .response {
+    font-style: italic;
+    color: #007bff;
+}
+
+
+
+/* Add this CSS to your styles.css file */
+
+.interaction {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-id {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.content {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.response {
+    font-style: italic;
+    color: #007bff;
+}
+
+
+
+
+
+
+
+
+/* Add this CSS to your styles.css file */
+
+.interactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.interactions-table th,
+.interactions-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.interactions-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.interactions-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.interactions-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.interactions-table tbody td {
+    white-space: pre-wrap;
+}
+
+.interactions-table tbody td.title {
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+/* Add this CSS to your styles.css file */
+
+.interactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.interactions-table th,
+.interactions-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left; /* Align text to the left within cells */
+}
+
+.interactions-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.interactions-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.interactions-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.interactions-table tbody td {
+    white-space: pre-wrap;
+    max-width: 300px; /* Limit the maximum width of cells */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+}
+
+.interactions-table tbody td.title {
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* lining */
+
+
+
+/* Add this CSS to your styles.css file */
+
+.interactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.interactions-table th,
+.interactions-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left; /* Align text to the left within cells */
+    border-right: 1px solid #ddd; /* Add vertical line between columns */
+}
+
+.interactions-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.interactions-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.interactions-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.interactions-table tbody td {
+    white-space: pre-wrap;
+    max-width: 300px; /* Limit the maximum width of cells */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+}
+
+.interactions-table tbody td.title {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Remove right border for the last column to avoid extra line */
+.interactions-table th:last-child,
+.interactions-table td:last-child {
+    border-right: none;
+}
+
+
+
+
+/* Add this CSS to your styles.css file */
+
+.interactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.interactions-table th,
+.interactions-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left; /* Align text to the left within cells */
+    border-right: 2px solid #ddd; /* Add vertical line between columns */
+}
+
+.interactions-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.interactions-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.interactions-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.interactions-table tbody td {
+    white-space: pre-wrap;
+    max-width: 300px; /* Limit the maximum width of cells */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+}
+
+.interactions-table tbody td.title {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Remove right border for the last column to avoid extra line */
+.interactions-table th:last-child,
+.interactions-table td:last-child {
+    border-right: none;
+}
+
+
+
+
+
+/* Add styles for loader */
+.loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #007bff; /* Blue */
+    border-radius: 50%;
+    width: 20px; /* Adjust size here */
+    height: 20px; /* Adjust size here */
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+    display: none; /* Initially hidden */
+}
+
+
+/* Add styles for success message */
+.success-message {
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+    display: none; /* Initially hidden */
+}
+
+/* Add styles for error message */
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+    text-align: center;
+    display: none; /* Initially hidden */
+}
+
+/* Add styles for the response field in interactions table */
+.interactions-table td.response {
+    max-width: 50px; /* Limit the maximum width of the response cell */
+    word-wrap: break-word; /* Wrap long words */
+    overflow-wrap: break-word; /* Wrap long words */
+    word-break: break-all; /* Break words at any character */
+}
